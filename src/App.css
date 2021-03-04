@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.buttonF {
+  min-height: 8vh;
+  min-width: 10vw;
+}
+.buttonDiv {
+  align-items: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +42,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.PokeImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
