@@ -13,13 +13,12 @@ function App() {
 
   //   useEffect(() => {
   //     searchApi("pokemon", pokemonNameID);
-  //   }, [0]);
+  //   }, []);
 
   const fusionID = "1.2";
   // eslint-disable-next-line no-unused-vars
   const fusionURL =
     "https://aegide.github.io/CustomBattlers/" + fusionID + ".png";
-  console.log("Result Empty if 0: " + results.len);
   return (
     <div className="App">
       <h1>FusionDex</h1>
@@ -41,10 +40,10 @@ function App() {
           }}
         />
       </div>
-      {results.len > 0 ? (
+      {results ? (
         <PokemonView
-          spriteURL={results.data.sprites.front_default}
-          altText={results.data.name}
+          spriteURL={results.sprites.front_default}
+          altText={results.name}
         />
       ) : null}
     </div>

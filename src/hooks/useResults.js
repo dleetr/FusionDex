@@ -3,7 +3,7 @@ import { useState } from "react";
 import pokeapi from "../api/pokeapi";
 
 export default () => {
-  const [results, setResults] = useState([]);
+  const [results, setResults] = useState(null);
   const [errorMessage, setErrorMessage] = useState("");
 
   // Call search API when component is first rendered
