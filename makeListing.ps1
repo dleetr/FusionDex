@@ -1,0 +1,1 @@
+(Get-ChildItem -Path .\CustomBattlers\ -File).BaseName > listing.txt
