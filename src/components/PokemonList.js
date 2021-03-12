@@ -3,24 +3,17 @@ import React, { useState, useEffect } from "react";
 function PokemonListItem({ pokeData }) {
   return (
     <img
-      src={pokeData.sprites.front_default}
+      src={pokeData.spriteURI}
       alt={pokeData.name}
-      className="PokeImage"
+      className="PokeIconImage"
     ></img>
   );
 }
 
-/* pokeDataList{
-	pokemon1{
-		pokeData
-	}
-}TODO: finish out this outline of the list object we will pass
+/* pokeDataList:	
+[{id: pokedexIndex, spriteURI: url, name: str},...]
 */
 function PokemonList({ pokeDataList }) {
-  const [dataList, setDataList] = useState([]);
-  console.log(pokeDataList);
-  console.log("^^pokeDataList^^");
-
   return (
     <ul>
       {pokeDataList.map((pokeData) => (

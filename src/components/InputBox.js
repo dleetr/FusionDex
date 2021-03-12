@@ -13,7 +13,6 @@ class InputBox extends React.Component {
     this.props.onTermChange(event.target.value);
   }
   handleSubmit(event) {
-    console.log("submit event" + this.props.term);
     this.props.onTermSubmit(this.props.term);
     event.preventDefault();
   }

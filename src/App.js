@@ -5,7 +5,8 @@ import InputBox from "./components/InputBox";
 import PokemonView from "./components/PokemonView";
 import PokemonList from "./components/PokemonList";
 import FusionView from "./components/FusionView";
-
+import { default as CustomFusions } from "./assets/FusionListing.json";
+import { idToName, nameToID } from "./utility/DexMap.js";
 function App() {
   const [term1, setTerm1] = useState("");
   const [term2, setTerm2] = useState("");
@@ -14,13 +15,29 @@ function App() {
   const [showPreview, setShowPreview] = useState(false);
   // eslint-disable-next-line no-unused-vars
   const [searchApi, results, errorMessage] = useResults();
-  //   console.log(pokeData1);
-  //   console.log(pokeData2);
 
-  // TODO: Figure out if should
-  // - use github api
-  // - read from file
-  // - read directly from directory
+  // console.log(CustomFusions.default[4].headFusions);
+  const pokeIconsURI =
+    "https://raw.githubusercontent.com/arcanis/pikasprite/master/icons/pokemon/regular/";
+
+  const buildFusionsData = (fusionIDList) => {
+    // fusionIDList: [1,31,33] -> pokedex IDs
+    // fusionIDList
+    const fusionsData = [];
+    let i = 0;
+    for (; i < fusionIDList.length; i++) {
+      const fusionData = {};
+      fusionData["name"] = idToName(fusionIDList[i], true);
+      fusionData["id"] = nameToID(fusionData["name"], false); // because we need an out of game ID for building the URI
+      fusionData["spriteURI"] =
+        pokeIconsURI + fusionData["name"].toLowerCase() + ".png";
+      fusionsData.push(fusionData);
+    }
+    console.log(fusionsData);
+    return fusionsData.sort((a, b) => {
+      return a.id - b.id;
+    });
+  };
 
   return (
     <div className="App">
@@ -53,7 +70,6 @@ function App() {
           term={term1}
           onTermChange={setTerm1}
           onTermSubmit={() => {
-            console.log("GET: " + term1);
             searchApi("pokemon", term1, setPokeData1);
           }}
         />
@@ -61,7 +77,6 @@ function App() {
           term={term2}
           onTermChange={setTerm2}
           onTermSubmit={() => {
-            console.log("GET: " + term2);
             searchApi("pokemon", term2, setPokeData2);
           }}
         />
@@ -78,8 +93,30 @@ function App() {
           ></FusionView>
         ) : null}
       </div>
+      {pokeData1 ? (
+        <div>
+          <h3>Head Fusions</h3>
+          <div className="CustomFusionsDiv">
+            <PokemonList
+              pokeDataList={buildFusionsData(
+                CustomFusions[nameToID(pokeData1.name, true)].headFusions
+              )}
+            />
+          </div>
+          <h3>Body Fusions</h3>
+          <div className="CustomFusionsDiv">
+            <PokemonList
+              pokeDataList={buildFusionsData(
+                CustomFusions[nameToID(pokeData1.name, true)].bodyFusions
+              )}
+            />
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
-
+/* pokeDataList:	
+[{id: pokedexIndex, spriteURI: url, name: str},...]
+*/
 export default App;
