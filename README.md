@@ -11,8 +11,6 @@ There is no official repo for Pokemon Infinite Fusion; spriters are always worki
 Thus, FusionDex currently relies on https://github.com/Aegide/Aegide.github.io/blob/master/CustomBattlers/ for fusion sprites
 Aegide currently maintains and frequently updates their repo for a different fusion calculator
 
-FusionDex relies on https://github.com/arcanis/pikasprite/tree/master/icons/pokemon/regular for icons
-
 Other Deps:
 
 - Regular Pokemon sprites: PokeAPI
