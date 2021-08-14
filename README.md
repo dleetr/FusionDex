@@ -1,6 +1,6 @@
 ## Purpose
 
-Other fusion tools for Pokemon Infinite Fusion exist, but none offer a method of simply previewing the possible fusions without spoiling the sprite. FusionDex will show a list of possible custom sprite fusions; the 1.0 intention is to facilitate this feature - not to provide a tool for optimizing stats/builds.
+Other tools for Pokemon Infinite Fusion exist, but none offer a method of simply previewing the possible fusions without spoiling the sprite. FusionDex will show a list of possible custom sprite fusions; the 1.0 intention is to facilitate this feature - not to provide a tool for optimizing stats/builds.
 
 If you are more interested in the stats, go check out https://aegide.github.io/showdown/
 
