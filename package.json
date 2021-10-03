@@ -1,7 +1,7 @@
 {
   "homepage": "http://dleetr.github.io/FusionDex",
   "name": "fusion-dex",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -14,18 +14,13 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "gen-assets": "node ./gen-assets/gen-icons/index.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -40,6 +35,17 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "@squoosh/lib": "^0.4.0",
+    "chalk": "^2.4.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "gh-pages": "^3.2.3",
+    "ora": "^5.4.1",
+    "pokesprite-images": "^2.5.4",
+    "prettier": "^2.4.0",
+    "pretty-quick": "^3.1.1",
+    "spritesmith": "^3.4.0"
   }
 }

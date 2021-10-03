@@ -1,20 +1,24 @@
 import React from "react";
+import { nameToID } from "../utility/DexMap";
 const fusionSpritesURL = "https://aegide.github.io/CustomBattlers/";
 function FusionView({ headPokeData, bodyPokeData }) {
+  if (!headPokeData || !bodyPokeData) return null;
   const getFusionURL = (headMonData, bodyMonData) => {
     const fusionURL =
-      fusionSpritesURL + (headMonData.id + "." + bodyMonData.id) + ".png";
+      fusionSpritesURL +
+      (nameToID(headMonData.name, true) +
+        "." +
+        nameToID(bodyMonData.name, true)) +
+      ".png";
     return fusionURL; // 2nd mon is body
   };
 
   return (
-    <div>
-      <img
-        src={getFusionURL(headPokeData, bodyPokeData)}
-        alt="No fusion found"
-        className="FuseImage"
-      ></img>
-    </div>
+    <img
+      src={getFusionURL(headPokeData, bodyPokeData)}
+      alt="No fusion found"
+      className="FuseImage"
+    ></img>
   );
 }
 

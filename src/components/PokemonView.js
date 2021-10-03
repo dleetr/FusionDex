@@ -1,8 +1,7 @@
 import React from "react";
 
 function PokemonView({ pokeData }) {
-  console.log(pokeData.name);
-  return (
+  return pokeData ? (
     <div>
       <h3 className="capitalize">{pokeData.name}</h3>
       <img
@@ -11,6 +10,6 @@ function PokemonView({ pokeData }) {
         className="PokeImage"
       ></img>
     </div>
-  );
+  ) : null;
 }
 export default PokemonView;

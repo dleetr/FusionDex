@@ -1,82 +1,221 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@import url(//db.onlinewebfonts.com/c/831e1f4da157d96bc996f8c9f5f1e578?family=Pokemon+GB);
+
+@font-face {
+  font-family: "Pokemon GB";
+  src: url("//db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.ttf");
+}
+@font-face {
+  font-family: "Pokemon";
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
+}
+body {
+  background: #9c7777;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.RetroBorder {
+  border-style: solid;
+  border-image-source: url(./assets/menuSheet8x8.png);
+  border-image-width: 8;
+  border-image-slice: 8;
+  border-image-repeat: round;
+}
+
+a {
+  text-decoration: none;
+  font-size: larger;
+  font-style: italic;
+  color: cornflowerblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: Pokemon;
+  color: #ffcb05;
+  /* text-shadow: -4px 3px 0px #475bdb, -7px 7px 0 #223297; */
+  text-shadow: -0.1em 0.045em 0px #475bdb, -0.15em 0.15em 0 #223297;
+  animation: 0.65s cubic-bezier(0.41, 0.74, 0.19, 1.15) 0s 1 slideInFromTop;
+  /* cubic-bezier(0.36,-0.64, 0.34, 1.76)  Give this a shot*/
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-150%);
+  }
+  35% {
+    transform: translateY(25%) scale(125%, 75%);
+  }
+
+  100% {
+    transform: scale(100%, 100%) translateY(0%);
+  }
+}
+
+button,
+input,
+select,
+textarea {
+  border-radius: 4px;
+  margin: 1px;
+  font-family: inherit;
+  text-align: center;
+  font-size: 100%;
+  border: #000000;
+  border-width: 2px;
+}
+
+.Silhouette {
+  filter: brightness(0) saturate(100%) grayscale(100%); /* bake it to black */
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.IdleWiggle {
+  animation: wiggle 2.5s infinite;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  margin: 8vh auto;
+  transform: skew(12deg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.HeaderSub {
+}
+
+.PreviewButton {
+}
+.PreviewButton:hover {
+  animation: wiggle 1.35s;
+}
+
+.DexContent {
+  font-family: Pokemon GB;
+}
+
+.DexInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.DexInput > * {
+  /* width: 100%; */
+  padding: 0;
+}
+
+.DexInput {
+  align-items: "center";
+  /* width: 300px; */
+  position: relative;
+  /* margin: auto; */
+}
+
+.DexInput > input {
+  padding: 0.8em;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+.suggestions {
+  position: absolute;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.suggestions li {
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
+.suggestion-active,
+.suggestions li:hover {
+  cursor: pointer;
+  font-weight: 700;
+  background: aliceblue;
 }
 
 .CustomFusionsDiv {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  padding-inline-start: 0;
+  margin: 0px 3vh;
   align-items: center;
   color: black;
   flex: 1;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 .PokemonDiv {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: row;
+  background-color: #c44d4d;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  color: #dd8a5b;
+  color: #000000;
 }
-.App-link {
-  color: #61dafb;
+.ToggleSpoiler {
 }
 
-.buttonF {
-  min-height: 8vh;
-  min-width: 10vw;
-}
-.buttonDiv {
-  align-items: center;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .PokeImage {
   border: 1px solid #282c34;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
 }
+
 .PokeIconImage {
   padding: -33px;
   max-width: 88px;
   max-height: 88px;
 }
+
 .FuseImage {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-  filter: brightness(0) saturate(100%) grayscale(100%);
-  mix-blend-mode: color-burn; /* bake it to black */
-}
-.capitalize {
-  text-transform: capitalize;
+  filter: brightness(0) saturate(100%) grayscale(100%); /* bake it to black */
 }

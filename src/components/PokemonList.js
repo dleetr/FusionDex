@@ -1,11 +1,25 @@
 import React, { useState, useEffect } from "react";
 
-function PokemonListItem({ pokeData }) {
+/* pokeData:	
+  {id: pokedexIndex, spriteURI: url, name: str}
+*/
+function PokemonListItem({ pokeData, setPokeData }) {
+  const onClick = () => {
+    try {
+      setPokeData(pokeData.name);
+    } catch (e) {
+      console.log(`${setPokeData}\n${e}`);
+    }
+  };
   return (
     <img
+      onClick={onClick}
       src={pokeData.spriteURI}
       alt={pokeData.name}
       className="PokeIconImage"
+      onError={() => {
+        console.log(`no image for ${pokeData.name} @\n\t${pokeData.spriteURI}`);
+      }}
     ></img>
   );
 }
@@ -13,13 +27,17 @@ function PokemonListItem({ pokeData }) {
 /* pokeDataList:	
 [{id: pokedexIndex, spriteURI: url, name: str},...]
 */
-function PokemonList({ pokeDataList }) {
+function PokemonList({ pokeDataList, setPokeData }) {
   return (
-    <ul>
+    <div className="PokemonList">
       {pokeDataList.map((pokeData) => (
-        <PokemonListItem key={pokeData.id} pokeData={pokeData} />
+        <PokemonListItem
+          key={pokeData.id}
+          pokeData={pokeData}
+          setPokeData={setPokeData}
+        />
       ))}
-    </ul>
+    </div>
   );
 }
 
