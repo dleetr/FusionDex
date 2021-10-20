@@ -1,0 +1,2100 @@
+.bulbasaur{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 0;
+}
+.ivysaur{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 0;
+}
+.venusaur{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 56;
+}
+.charmander{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 56;
+}
+.charmeleon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 0;
+}
+.charizard{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 56;
+}
+.squirtle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 112;
+}
+.wartortle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 112;
+}
+.blastoise{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 112;
+}
+.caterpie{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 0;
+}
+.metapod{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 56;
+}
+.butterfree{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 112;
+}
+.weedle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 168;
+}
+.kakuna{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 168;
+}
+.beedrill{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 168;
+}
+.pidgey{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 168;
+}
+.pidgeotto{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 0;
+}
+.pidgeot{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 56;
+}
+.rattata{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 112;
+}
+.raticate{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 168;
+}
+.spearow{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 224;
+}
+.fearow{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 224;
+}
+.ekans{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 224;
+}
+.arbok{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 224;
+}
+.pikachu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 224;
+}
+.raichu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 280;
+}
+.sandshrew{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 280;
+}
+.sandslash{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 280;
+}
+.nidoran-f{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 280;
+}
+.nidorina{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 280;
+}
+.nidoqueen{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 0;
+}
+.nidoran-m{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 56;
+}
+.nidorino{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 112;
+}
+.nidoking{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 168;
+}
+.clefairy{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 224;
+}
+.clefable{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 280;
+}
+.vulpix{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 336;
+}
+.ninetales{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 336;
+}
+.jigglypuff{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 336;
+}
+.wigglytuff{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 336;
+}
+.zubat{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 336;
+}
+.golbat{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 336;
+}
+.oddish{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 0;
+}
+.gloom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 56;
+}
+.vileplume{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 112;
+}
+.paras{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 168;
+}
+.parasect{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 224;
+}
+.venonat{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 280;
+}
+.venomoth{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 336;
+}
+.diglett{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 392;
+}
+.dugtrio{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 392;
+}
+.meowth{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 392;
+}
+.persian{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 392;
+}
+.psyduck{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 392;
+}
+.golduck{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 392;
+}
+.mankey{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 392;
+}
+.primeape{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 0;
+}
+.growlithe{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 56;
+}
+.arcanine{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 112;
+}
+.poliwag{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 168;
+}
+.poliwhirl{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 224;
+}
+.poliwrath{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 280;
+}
+.abra{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 336;
+}
+.kadabra{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 392;
+}
+.alakazam{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 448;
+}
+.machop{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 448;
+}
+.machoke{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 448;
+}
+.machamp{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 448;
+}
+.bellsprout{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 448;
+}
+.weepinbell{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 448;
+}
+.victreebel{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 448;
+}
+.tentacool{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 448;
+}
+.tentacruel{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 0;
+}
+.geodude{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 56;
+}
+.graveler{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 112;
+}
+.golem{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 168;
+}
+.ponyta{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 224;
+}
+.rapidash{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 280;
+}
+.slowpoke{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 336;
+}
+.slowbro{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 392;
+}
+.magnemite{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 448;
+}
+.magneton{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 504;
+}
+.farfetchd{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 504;
+}
+.doduo{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 504;
+}
+.dodrio{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 504;
+}
+.seel{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 504;
+}
+.dewgong{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 504;
+}
+.grimer{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 504;
+}
+.muk{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 504;
+}
+.shellder{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 504;
+}
+.cloyster{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 0;
+}
+.gastly{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 56;
+}
+.haunter{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 112;
+}
+.gengar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 168;
+}
+.onix{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 224;
+}
+.drowzee{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 280;
+}
+.hypno{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 336;
+}
+.krabby{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 392;
+}
+.kingler{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 448;
+}
+.voltorb{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 504;
+}
+.electrode{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 560;
+}
+.exeggcute{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 560;
+}
+.exeggutor{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 560;
+}
+.cubone{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 560;
+}
+.marowak{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 560;
+}
+.hitmonlee{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 560;
+}
+.hitmonchan{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 560;
+}
+.lickitung{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 560;
+}
+.koffing{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 560;
+}
+.weezing{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 560;
+}
+.rhyhorn{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 616;
+}
+.rhydon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 616;
+}
+.chansey{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 616;
+}
+.tangela{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 616;
+}
+.kangaskhan{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 616;
+}
+.horsea{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 616;
+}
+.seadra{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 616;
+}
+.goldeen{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 616;
+}
+.seaking{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 616;
+}
+.staryu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 616;
+}
+.starmie{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 0;
+}
+.mr-mime{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 56;
+}
+.scyther{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 112;
+}
+.jynx{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 168;
+}
+.electabuzz{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 224;
+}
+.magmar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 280;
+}
+.pinsir{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 336;
+}
+.tauros{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 392;
+}
+.magikarp{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 448;
+}
+.gyarados{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 504;
+}
+.lapras{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 560;
+}
+.ditto{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 616;
+}
+.eevee{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 672;
+}
+.vaporeon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 672;
+}
+.jolteon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 672;
+}
+.flareon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 672;
+}
+.porygon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 672;
+}
+.omanyte{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 672;
+}
+.omastar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 672;
+}
+.kabuto{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 672;
+}
+.kabutops{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 672;
+}
+.aerodactyl{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 672;
+}
+.snorlax{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 672;
+}
+.articuno{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 0;
+}
+.zapdos{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 56;
+}
+.moltres{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 112;
+}
+.dratini{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 168;
+}
+.dragonair{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 224;
+}
+.dragonite{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 280;
+}
+.mewtwo{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 336;
+}
+.mew{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 392;
+}
+.chikorita{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 448;
+}
+.bayleef{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 504;
+}
+.meganium{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 560;
+}
+.cyndaquil{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 616;
+}
+.quilava{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 672;
+}
+.typhlosion{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 728;
+}
+.totodile{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 728;
+}
+.croconaw{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 728;
+}
+.feraligatr{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 728;
+}
+.sentret{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 728;
+}
+.furret{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 728;
+}
+.hoothoot{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 728;
+}
+.noctowl{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 728;
+}
+.ledyba{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 728;
+}
+.ledian{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 728;
+}
+.spinarak{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 728;
+}
+.ariados{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 728;
+}
+.crobat{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 0;
+}
+.chinchou{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 56;
+}
+.lanturn{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 112;
+}
+.pichu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 168;
+}
+.cleffa{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 224;
+}
+.igglybuff{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 280;
+}
+.togepi{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 336;
+}
+.togetic{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 392;
+}
+.natu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 448;
+}
+.xatu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 504;
+}
+.mareep{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 560;
+}
+.flaaffy{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 616;
+}
+.ampharos{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 672;
+}
+.bellossom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 728;
+}
+.marill{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 784;
+}
+.azumarill{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 784;
+}
+.sudowoodo{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 784;
+}
+.politoed{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 784;
+}
+.hoppip{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 784;
+}
+.skiploom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 784;
+}
+.jumpluff{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 784;
+}
+.aipom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 784;
+}
+.sunkern{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 784;
+}
+.sunflora{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 784;
+}
+.yanma{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 784;
+}
+.wooper{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 784;
+}
+.quagsire{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 784;
+}
+.espeon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 0;
+}
+.umbreon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 56;
+}
+.murkrow{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 112;
+}
+.slowking{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 168;
+}
+.misdreavus{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 224;
+}
+.unown{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 280;
+}
+.wobbuffet{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 336;
+}
+.girafarig{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 392;
+}
+.pineco{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 448;
+}
+.forretress{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 504;
+}
+.dunsparce{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 560;
+}
+.gligar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 616;
+}
+.steelix{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 672;
+}
+.snubbull{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 728;
+}
+.granbull{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 784;
+}
+.qwilfish{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 840;
+}
+.scizor{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 840;
+}
+.shuckle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 840;
+}
+.heracross{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 840;
+}
+.sneasel{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 840;
+}
+.teddiursa{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 840;
+}
+.ursaring{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 840;
+}
+.slugma{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 840;
+}
+.magcargo{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 840;
+}
+.swinub{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 840;
+}
+.piloswine{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 840;
+}
+.corsola{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 840;
+}
+.remoraid{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 840;
+}
+.octillery{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 840;
+}
+.delibird{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 896;
+}
+.mantine{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 896;
+}
+.skarmory{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 896;
+}
+.houndour{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 896;
+}
+.houndoom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 896;
+}
+.kingdra{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 896;
+}
+.phanpy{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 896;
+}
+.donphan{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 896;
+}
+.porygon2{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 896;
+}
+.stantler{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 896;
+}
+.smeargle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 896;
+}
+.tyrogue{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 896;
+}
+.hitmontop{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 896;
+}
+.smoochum{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 896;
+}
+.elekid{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 0;
+}
+.magby{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 56;
+}
+.miltank{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 112;
+}
+.blissey{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 168;
+}
+.raikou{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 224;
+}
+.entei{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 280;
+}
+.suicune{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 336;
+}
+.larvitar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 392;
+}
+.pupitar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 448;
+}
+.tyranitar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 504;
+}
+.lugia{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 560;
+}
+.ho-oh{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 616;
+}
+.celebi{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 672;
+}
+.azurill{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 728;
+}
+.wynaut{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 784;
+}
+.ambipom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 840;
+}
+.mismagius{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 896;
+}
+.honchkrow{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 952;
+}
+.bonsly{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 952;
+}
+.mime-jr{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 952;
+}
+.happiny{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 952;
+}
+.munchlax{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 952;
+}
+.mantyke{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 952;
+}
+.weavile{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 952;
+}
+.magnezone{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 952;
+}
+.lickilicky{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 952;
+}
+.rhyperior{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 952;
+}
+.tangrowth{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 952;
+}
+.electivire{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 952;
+}
+.magmortar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 952;
+}
+.togekiss{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 952;
+}
+.yanmega{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 952;
+}
+.leafeon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 0;
+}
+.glaceon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 56;
+}
+.gliscor{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 112;
+}
+.mamoswine{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 168;
+}
+.porygon-z{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 224;
+}
+.treecko{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 280;
+}
+.grovyle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 336;
+}
+.sceptile{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 392;
+}
+.torchic{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 448;
+}
+.combusken{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 504;
+}
+.blaziken{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 560;
+}
+.mudkip{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 616;
+}
+.marshtomp{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 672;
+}
+.swampert{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 728;
+}
+.ralts{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 784;
+}
+.kirlia{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 840;
+}
+.gardevoir{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 896;
+}
+.gallade{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 952;
+}
+.shedinja{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 1008;
+}
+.kecleon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 1008;
+}
+.beldum{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 1008;
+}
+.metang{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 1008;
+}
+.metagross{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 1008;
+}
+.bidoof{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 1008;
+}
+.spiritomb{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 1008;
+}
+.lucario{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 1008;
+}
+.gible{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 1008;
+}
+.gabite{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 1008;
+}
+.garchomp{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 1008;
+}
+.mawile{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 1008;
+}
+.lileep{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 1008;
+}
+.cradily{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 1008;
+}
+.anorith{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 1008;
+}
+.armaldo{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 1008;
+}
+.cranidos{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 0;
+}
+.rampardos{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 56;
+}
+.shieldon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 112;
+}
+.bastiodon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 168;
+}
+.slaking{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 224;
+}
+.absol{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 280;
+}
+.duskull{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 336;
+}
+.dusclops{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 392;
+}
+.dusknoir{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 448;
+}
+.wailord{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 504;
+}
+.arceus{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 560;
+}
+.turtwig{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 616;
+}
+.grotle{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 672;
+}
+.torterra{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 728;
+}
+.chimchar{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 784;
+}
+.monferno{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 840;
+}
+.infernape{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 896;
+}
+.piplup{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 952;
+}
+.prinplup{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 1008;
+}
+.empoleon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 1064;
+}
+.nosepass{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 1064;
+}
+.probopass{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 1064;
+}
+.honedge{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 1064;
+}
+.doublade{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 1064;
+}
+.aegislash{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 1064;
+}
+.pawniard{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 1064;
+}
+.bisharp{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 1064;
+}
+.luxray{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 1064;
+}
+.aggron{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 1064;
+}
+.flygon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 1064;
+}
+.milotic{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 1064;
+}
+.salamence{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 1064;
+}
+.klinklang{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 1064;
+}
+.zoroark{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 1064;
+}
+.sylveon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 1064;
+}
+.kyogre{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 1064;
+}
+.groudon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 0;
+}
+.rayquaza{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 56;
+}
+.dialga{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 112;
+}
+.palkia{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 168;
+}
+.giratina{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 224;
+}
+.regigigas{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 280;
+}
+.darkrai{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 336;
+}
+.genesect{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 392;
+}
+.reshiram{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 448;
+}
+.zekrom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 504;
+}
+.kyurem{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 560;
+}
+.roserade{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 616;
+}
+.drifblim{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 672;
+}
+.lopunny{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 728;
+}
+.breloom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 784;
+}
+.ninjask{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 840;
+}
+.banette{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 896;
+}
+.rotom{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 952;
+}
+.reuniclus{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 1008;
+}
+.whimsicott{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 1064;
+}
+.krookodile{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 1120;
+}
+.cofagrigus{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 1120;
+}
+.galvantula{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 1120;
+}
+.ferrothorn{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 1120;
+}
+.litwick{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 1120;
+}
+.lampent{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 1120;
+}
+.chandelure{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 1120;
+}
+.haxorus{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 1120;
+}
+.golurk{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 1120;
+}
+.pyukumuku{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 1120;
+}
+.klefki{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 1120;
+}
+.talonflame{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 1120;
+}
+.mimikyu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 1120;
+}
+.volcarona{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 1120;
+}
+.deino{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 1120;
+}
+.zweilous{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 1120;
+}
+.hydreigon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 1120;
+}
+.latias{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 1120;
+}
+.latios{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 0;
+}
+.deoxys{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 56;
+}
+.jirachi{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 112;
+}
+.nincada{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 168;
+}
+.bibarel{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 224;
+}
+.riolu{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 280;
+}
+.slakoth{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 336;
+}
+.vigoroth{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 392;
+}
+.wailmer{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 448;
+}
+.shinx{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 504;
+}
+.luxio{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 560;
+}
+.aron{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 616;
+}
+.lairon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 672;
+}
+.trapinch{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 728;
+}
+.vibrava{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 784;
+}
+.feebas{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 840;
+}
+.bagon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 896;
+}
+.shelgon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 952;
+}
+.klink{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 1008;
+}
+.klang{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 1064;
+}
+.zorua{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 1120;
+}
+.budew{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 1176;
+}
+.roselia{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 1176;
+}
+.drifloon{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 136 1176;
+}
+.buneary{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 204 1176;
+}
+.shroomish{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 272 1176;
+}
+.shuppet{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 340 1176;
+}
+.solosis{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 408 1176;
+}
+.duosion{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 476 1176;
+}
+.cottonee{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 544 1176;
+}
+.sandile{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 612 1176;
+}
+.krokorok{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 680 1176;
+}
+.yamask{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 748 1176;
+}
+.joltik{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 816 1176;
+}
+.ferroseed{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 884 1176;
+}
+.axew{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 952 1176;
+}
+.fraxure{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1020 1176;
+}
+.golett{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1088 1176;
+}
+.fletchling{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1156 1176;
+}
+.fletchinder{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 1224 1176;
+}
+.larvesta{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 0 1232;
+}
+.stunfisk{
+  width:68px;
+  height:56px;
+  background:url(icon_sheet.webp) 68 1232;
+}

@@ -1,5 +1,6 @@
 // #region imports
 import "./App.css";
+import "./assets/pokeicon/icon_sheet.css";
 
 import React, { useState, useEffect, useCallback } from "react";
 

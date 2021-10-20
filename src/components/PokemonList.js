@@ -16,7 +16,7 @@ function PokemonListItem({ pokeData, setPokeData }) {
       onClick={onClick}
       src={pokeData.spriteURI}
       alt={pokeData.name}
-      className="PokeIconImage"
+      className={`PokeIconImage ${pokeData.name.toLowerCase()}`}
       onError={() => {
         console.log(`no image for ${pokeData.name} @\n\t${pokeData.spriteURI}`);
       }}
