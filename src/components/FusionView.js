@@ -1,8 +1,18 @@
 import React from "react";
+import { useEffect } from "react/cjs/react.development";
 import { nameToID } from "../utility/DexMap";
-const fusionSpritesURL = "https://aegide.github.io/CustomBattlers/";
+const fusionSpritesURL =
+  "https://raw.githubusercontent.com/Aegide/custom-fusion-sprites/main/CustomBattlers/";
+
+function stringify(obj) {
+  return JSON.stringify(obj, undefined, 2);
+}
+
 function FusionView({ headPokeData, bodyPokeData }) {
-  if (!headPokeData || !bodyPokeData) return null;
+  if (!headPokeData || !bodyPokeData) {
+    console.error("FusionView missing data");
+    throw `FusionView-Warn: Missing 1 of 2 mons:${headPokeData}${bodyPokeData}`;
+  }
   const getFusionURL = (headMonData, bodyMonData) => {
     const fusionURL =
       fusionSpritesURL +
@@ -10,8 +20,14 @@ function FusionView({ headPokeData, bodyPokeData }) {
         "." +
         nameToID(bodyMonData.name, true)) +
       ".png";
+    console.log(fusionSpritesURL);
     return fusionURL; // 2nd mon is body
   };
+
+  useEffect(() => {
+    console.log(`Head - \n${stringify(headPokeData)}`);
+    console.log(`Body - \n${stringify(bodyPokeData)}`);
+  }, [headPokeData, bodyPokeData]);
 
   return (
     <img
